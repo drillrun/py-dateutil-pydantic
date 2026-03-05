@@ -1,0 +1,23 @@
+[project]
+name = "py-dateutil-pydantic"
+version = "0.1.0"
+description = "Pydantic v2 annotated types for python-dateutil"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Christopher MacGown", email = "chris@drill.run" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.12.5",
+    "python-dateutil>=2.9.0.post0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
