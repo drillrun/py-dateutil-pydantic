@@ -13,6 +13,10 @@ dependencies = [
     "python-dateutil>=2.9.0.post0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/drillrun/py-dateutil-pydantic"
+Repository = "https://github.com/drillrun/py-dateutil-pydantic"
+
 [build-system]
 requires = ["uv_build>=0.9.28,<0.10.0"]
 build-backend = "uv_build"
